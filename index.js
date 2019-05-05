@@ -36,10 +36,7 @@ function viewCart() {
         var others = newarr.join(", ");
         text += (others + ", and " + last + ".");
       }
-  
-  
-  
-  
+      console.log(text)
 }
   
   
