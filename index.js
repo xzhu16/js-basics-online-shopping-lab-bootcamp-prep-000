@@ -32,7 +32,9 @@ function viewCart() {
       } else if (newarr.length === 2) {
         text += (newarr[0] + " and " + newarr[1] + ".")
       } else if (newarr.length > 2) {
-        
+        var last = newarr.pop();
+        var others = newarr.join(", ");
+        text += (others + ", and " + last + ".");
       }
   
   
