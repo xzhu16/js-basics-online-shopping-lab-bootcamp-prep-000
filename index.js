@@ -39,8 +39,6 @@ function viewCart() {
       console.log(text)
 }
   
-  
-
 
 function total() {
   var z = 0
