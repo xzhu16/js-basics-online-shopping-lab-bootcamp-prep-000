@@ -43,7 +43,7 @@ function viewCart() {
 function total() {
   var z = 0
   for (var i = 0; i < cart)
-  
+  z += cart[i]Object.keys({cart[i]})
 }
 
 function removeFromCart(item) {
