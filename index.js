@@ -43,8 +43,8 @@ function viewCart() {
 
 
 function total() {
-  // write your code here
-  
+  var z = 0
+  for (var i = 0; i < cart)
 }
 
 function removeFromCart(item) {
